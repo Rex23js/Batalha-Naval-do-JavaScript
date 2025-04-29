@@ -36,14 +36,13 @@ p {
   display: grid;
   grid-template-columns: repeat(5, 100px);
   grid-template-rows: repeat(5, 100px);
-  background-color: blue;
   width: 500px;
   height: 500px;
   margin: 20px auto;
 }
 
 .T_Block {
-  background-color: #3b6bf0;
+  background-color: #5AC8FA;
   width: 100px;
   height: 100px;
   border: 1px solid #999;
@@ -60,4 +59,14 @@ p {
   color: purple;
   font-size: 30px;
   font-weight: bold;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
 }
